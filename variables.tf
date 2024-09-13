@@ -1,7 +1,7 @@
 # variables.tf
 variable "region" {
   type    = string
-  default = "ap-south-1"
+  default = "us-west-1"
 }
 
 variable "vpc_cidr" {
