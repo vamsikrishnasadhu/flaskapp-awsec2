@@ -5,7 +5,7 @@ resource "aws_instance" "private" {
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.public.id
   iam_instance_profile   = aws_iam_instance_profile.ec2_profile.name
-  availability_zone      = "${var.region}a"
+  availability_zone      = "${var.region}b"
   vpc_security_group_ids = [aws_security_group.docker_on_ec2.id, ]
   key_name               = var.ssh_key
 
