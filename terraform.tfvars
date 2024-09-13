@@ -1,3 +1,3 @@
 # terraform.tfvars
-ssh_key        = "docker-demo"
-tfstate_bucket = "366140438193-terraform-state"
+ssh_key        = "ec2-ubuntu-20lts1-vamsi"
+tfstate_bucket = "358344349163-test-terraform-bucket"
