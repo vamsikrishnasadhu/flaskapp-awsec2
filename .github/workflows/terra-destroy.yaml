@@ -15,7 +15,7 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: us-west-1  # Specifies the AWS region
-      TERRAFORM_VER: 1.5.1     # Specifies the Terraform version to use
+      TERRAFORM_VER: 1.9.5     # Specifies the Terraform version to use
 
     steps:
       - name: Checkout Repository
